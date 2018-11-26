@@ -2,8 +2,8 @@
 import { SecureMapFactory } from './secureMap';
 import type { SecureMap } from './secureMap';
 
-// TODO: pull this out of this file
-const LOCKER_TAG = 'com.nowmkt.clientapp.locker';
+// TODO: pull this out of this file; make configurable externally
+const LOCKER_TAG = 'locker';
 
 // @returns {string} strings of chars [a-z] at length len
 export function generateKeyString(len: number): string {
